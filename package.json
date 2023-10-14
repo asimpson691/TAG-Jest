@@ -10,10 +10,7 @@
     "build": "CI=false react-scripts build",
     "format": "prettier --write 'src/**/*.{js,jsx}'",
     "lint": "eslint 'src/**/*.{js,jsx}'",
-    "test": "npm run test:unit",
-    "test:unit": "react-scripts test --watchAll=false",
-    "test:e2e": "start-server-and-test start http://localhost:9300 cypress",
-    "cypress": "cypress run"
+    "test": "react-scripts test"
   },
   "dependencies": {
     "classnames": "^2.3.1",
@@ -32,7 +29,6 @@
     "@babel/runtime": "^7.17.9",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
-    "cypress": "^9.5.4",
     "eslint": "^8.13.0",
     "eslint-config-react-app": "^7.0.1",
     "eslint-plugin-import": "^2.26.0",
