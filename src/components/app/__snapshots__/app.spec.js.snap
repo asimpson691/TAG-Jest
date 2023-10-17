@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should render correctly with active todos 1`] = `
+exports[`renders correctly with active todos 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
